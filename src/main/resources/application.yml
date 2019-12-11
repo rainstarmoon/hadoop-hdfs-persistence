@@ -1,0 +1,10 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: hadoop-hdfs-persistence
+  profiles:
+    active: hadoop
+  config:
+    additional-location: classpath:/config
